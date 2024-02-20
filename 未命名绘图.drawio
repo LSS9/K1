@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T06:06:25.117Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="5J7fjViuRVWwM2weFn7L" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T07:07:21.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="6jNyuTdnK0SF2_0KjIxH" version="22.1.21" type="github">
   <diagram name="Page-1" id="8ce9d11a-91a2-4d17-14d8-a56ed91bf033">
-    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2316" dy="1389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -196,6 +196,66 @@
         </mxCell>
         <mxCell id="17ea667e15c223fc-27" value="Combine review X with others" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="540" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTb65_9aEI4sABSLEU5k-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZTb65_9aEI4sABSLEU5k-56" target="ZTb65_9aEI4sABSLEU5k-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTb65_9aEI4sABSLEU5k-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZTb65_9aEI4sABSLEU5k-56" target="ZTb65_9aEI4sABSLEU5k-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTb65_9aEI4sABSLEU5k-56" value="RabbitMQ&lt;br&gt;数据加密解密" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTb65_9aEI4sABSLEU5k-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="-630" as="sourcePoint" />
+            <mxPoint x="145" y="-550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="145" y="-600" />
+              <mxPoint x="145" y="-600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZTb65_9aEI4sABSLEU5k-61" value="设备" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-690" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTb65_9aEI4sABSLEU5k-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZTb65_9aEI4sABSLEU5k-63" target="ZTb65_9aEI4sABSLEU5k-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTb65_9aEI4sABSLEU5k-63" value="应用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTb65_9aEI4sABSLEU5k-65" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTb65_9aEI4sABSLEU5k-70" value="MySQL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-320" width="510" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTb65_9aEI4sABSLEU5k-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.314;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370.94" y="-490" as="sourcePoint" />
+            <mxPoint x="371.07999999999987" y="-318.4000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="371" y="-400" />
+              <mxPoint x="371" y="-400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZTb65_9aEI4sABSLEU5k-72" value="根据设备编号获取该设备的部门编号" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-432" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTb65_9aEI4sABSLEU5k-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.667;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZTb65_9aEI4sABSLEU5k-70" target="ZTb65_9aEI4sABSLEU5k-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="-320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZTb65_9aEI4sABSLEU5k-76" value="警报信息上报、解除报警上报" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="-612" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTb65_9aEI4sABSLEU5k-77" value="设备复位、重启、学习、设置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-612" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
